@@ -11,6 +11,7 @@
 		7D5439102BBDB3700091F2AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D54390F2BBDB3700091F2AB /* ContentView.swift */; };
 		7D5439122BBDB3720091F2AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D5439112BBDB3720091F2AB /* Assets.xcassets */; };
 		7D5439152BBDB3720091F2AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D5439142BBDB3720091F2AB /* Preview Assets.xcassets */; };
+		7D54391C2BBDB6620091F2AB /* TempSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D54391B2BBDB6620091F2AB /* TempSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7D54390F2BBDB3700091F2AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7D5439112BBDB3720091F2AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D5439142BBDB3720091F2AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D54391B2BBDB6620091F2AB /* TempSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				7D54390D2BBDB3700091F2AB /* LearnEightyTwentyApp.swift */,
 				7D54390F2BBDB3700091F2AB /* ContentView.swift */,
+				7D54391B2BBDB6620091F2AB /* TempSlider.swift */,
 				7D5439112BBDB3720091F2AB /* Assets.xcassets */,
 				7D5439132BBDB3720091F2AB /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D5439102BBDB3700091F2AB /* ContentView.swift in Sources */,
+				7D54391C2BBDB6620091F2AB /* TempSlider.swift in Sources */,
 				7D54390E2BBDB3700091F2AB /* LearnEightyTwentyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
