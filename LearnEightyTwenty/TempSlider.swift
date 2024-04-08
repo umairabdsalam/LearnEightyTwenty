@@ -21,14 +21,14 @@ struct TempSlider: View {
                             if showGreeting {
                                   Text("Hello World")
                          }
+            
+            Spacer()
+            Slider(value: $celcius, in: -100...100)
+              Text("\(celcius) °C is \(celcius * 9 / 5 + 32) °F")
 
         }
         .padding()
-        
-        VStack {
-            Slider(value: $celcius, in: -100...100)
-              Text("\(celcius) °C is \(celcius * 9 / 5 + 32) °F")
-        }
+
     }
 }
 
